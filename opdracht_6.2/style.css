@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.blauw {
+    background-color: #0044ff;
+}
+
+.zwart {
+    background-color: #000000;
+}
+
+.rood {
+    background-color: #ff0000;
+}
+
+.groen {
+    background-color: #008018;
+}
