@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'HelloHiFont';
+  src: url('../fonts/ftltlt-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HelloHiFont2';
+  src: url('../fonts/ftltlt-webfont2.woff') format('woff');
+}
+
+
+html {
+  background-color: #f5f5f5;
+  font-family: 'HelloHiFont', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'HelloHiFont', sans-serif;
+  color: #111;
+  background-color: #f5f5f5;
+  /* Background-image toevoegen aan de body */
+  background-image: url('../watch.png');
+  background-repeat: no-repeat;
+  background-position: right 10% center;
+  background-size: 500px auto;
+}
+
+
+.navbar {
+  background: #7b5ce0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+
+.deal-badge {
+  position: absolute;
+  top: -50px;
+  right: -25px;
+  background-color: #000;
+  color: white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  border: 6px solid #7b5ce0;
+  text-align: center;
+  z-index: 2;
+}
+
+.deal-badge span {
+  font-family: 'HelloHiFont2', serif;
+  transform: rotate(-15deg);
+  line-height: 1.2;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'HelloHiFont2', serif;
+  font-size: 52px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+
+.product-info {
+  position: relative;
+  max-width: 550px;
+  margin: 40px 0 50px 10%;
+  padding: 40px;
+  background-color: #fff;
+
+
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 90px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.product-info h2 {
+  font-family: 'HelloHiFont2', serif;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.product-info p {
+  line-height: 1.6;
+  color: #333;
+}
+
+.product-info ul {
+  margin: 25px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product-info ul li {
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+
+.cta-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #333;
+}
+
+.watch-image {
+  position: absolute;
+  top: 260px;
+  right: 22%;
+  width: 480px;
+  height: auto;
+}
